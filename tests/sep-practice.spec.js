@@ -64,8 +64,8 @@ test("SEP Practice", async ({ page }) => {
   let securityCodeInputBox = paymentFrame.locator("//input[@id='Field-cvcInput']");
   await securityCodeInputBox.fill("123");
 
-  let zipCodeInputBox = paymentFrame.locator("//input[@id='Field-postalCodeInput']");
-  await zipCodeInputBox.fill("12345");
+  //let zipCodeInputBox = paymentFrame.locator("//input[@id='Field-postalCodeInput']");
+  //await zipCodeInputBox.fill("12345");
 
   let termsAndConditionsCheckbox = page.locator("//input[@id='defaultCheck2']");
   await termsAndConditionsCheckbox.check();
