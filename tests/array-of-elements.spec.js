@@ -45,5 +45,5 @@ test.describe("Test Group", () => {
 
 2. Verify that each of the 50 link elements within the <ul> tag is visible & clickable.
 
-3. Verify that each of the 50 link elements within the <ul> tag has a href attribute.
+3. Verify that each of the 50 link elements within the <ul> tag has a href attribute .
 */
