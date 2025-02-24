@@ -38,7 +38,7 @@ test('Web Table Practice2', async ({ page }) => {
             for(let i = 1; i < cells.length - 1; i++){
                 console.log(await cells[i].textContent());
             }
-            console.log("-----------------------------");
+            console.log("------------------------------");
         }
     }
 
